@@ -1,0 +1,58 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto ;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+  max-width: 90%;
+  margin: 0 auto ;
+}
+header {
+  background-color: #d6c174;
+  border-radius: 30px;
+}
+header nav {
+  max-width: 100vw;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+header nav ul {
+  text-align: center;
+}
+header nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+header nav ul h3 {
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: transform 1s;
+  transform: translateX(0) scale(0.5);
+}
+header nav ul h3:hover {
+  color: #ccc;
+  transform: translateX(10px) scale(1.2);
+}
+main form {
+  text-align: center;
+}
+main form button {
+  padding: 10px;
+  font-weight: bold;
+}
+main form input {
+  width: px;
+  font-size: 1em;
+  text-align: center;
+}
+main span {
+  display: block;
+  font-weight: bold;
+  font-size: 2em;
+}
